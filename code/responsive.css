@@ -1,0 +1,68 @@
+@media(max-width:767.98px) {
+    .navbar-brand img {
+        width: 43px;
+    }
+
+    .portfolio-padding-left {
+        padding-left: 10px;
+    }
+
+    .portfolio-padding-right {
+        padding-right: 10px;
+    }
+
+    .portfolio-dropdown-box {
+        display: block;
+    }
+
+    .portfolio-nav{
+        display: none;
+    }
+
+    .portfolio-navbar{
+        padding: 0%;
+    }
+
+    i{
+        font-size: 12px;
+        cursor: pointer;
+        padding: 5px;
+    }
+
+    .portfolio-profile{
+        margin-left: 5px;
+    }
+
+    .portfolio-home-video .content .left{
+        margin-left: 25px;
+    }
+    
+    .portfolio-home-video .content .left img{
+        margin-top: 90px;
+        width: 200px;
+    }
+
+    button{
+        font-size: 10px;
+        width: max-content !important;
+        opacity: 0.8;
+    }
+    
+    .card{
+        width: 150px;
+    }
+
+    .card-icon{
+        font-size: 17px !important;
+    }
+
+    .slider1{
+        margin-left: 0px;
+    }
+
+    .card-body{
+        top: 80px;
+    }
+
+
+}
