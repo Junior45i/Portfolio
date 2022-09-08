@@ -69,7 +69,7 @@
                     <img src="../contains/image/image2.webp" alt="">
                     <div class="mt-2 d-flex">
                         <button type="button" class="btn btn-light m-2"><i class="bi bi-play-fill"
-                                style="color: #000; padding:0px;"></i>Découvrir mon univers</button>
+                                style="color: #000; padding:0px;"></i><a href="#slider-box" class="text-decoration-none text-white">Découvrir mon univers</a></button>
                         <button type="button" class="btn btn-secondary m-2"><i class="bi bi-info-circle"
                                 style="color: #000; padding:5px;"></i>Plus d'informations</button>
                     </div>
@@ -79,10 +79,10 @@
     </div>
 
     <!-- sliders -->
-    <div class="slider-box">
+    <div id="slider-box" class="slider-box">
         <div class="container-fluid slider">
             <section class="d-flex justify-content-between margin-right">
-                <p class="text-white"> <b>Trending</b> </p>
+                <h2 class="text-white"> <b>Mes projets</b> </h2>
                 <div class="">
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
                         class="active tab-change-btn" aria-current="true" aria-label="Slide 1"></button>
@@ -93,7 +93,6 @@
                 </div>
             </section>
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-
                 <div class="carousel-inner" style="position: relative; overflow: visible;">
                     <div class="carousel-item active">
                         <section class="d-flex" style="">
@@ -537,7 +536,35 @@
         </div>
     </div>
 
-    <!-- Projet End -->
+    <!-- Description projet (rendre native) -->
+    <section class="home py-5">
+        <div class="container-lg">
+            <div class="row align-items-top align-content-top">
+                <div class="col-md-5 order-md-first">
+                    <div class="home-text">
+                        <h1>GossipHelha</h1>
+                        <p class="projet-card-text" style="color: rgb(0, 186, 0);"> Résultat scolaire 80%</p>
+                        <p class="projet-card-lang" style="color: rgb(93, 89, 87);"> html, css, ajax, jquery, PHP, SQL</p>
+                        <h6 class="description">Projet libre de choix visant à la réalisation d'un site internet utilisable également sur mobile.
+                            J'ai décidé de réaliser un projet permettant au étudiant de la Haute Ecole Louvain en Hainaut de Mons de discuter, poster des Posts, commenter, réagir etc.
+                            Il s'agissait d'un projet majeur pour la réussite de la deuxième année. Celui-ci à permis de montrer notre capacité de gestion de base de donnée, de la réalisation d'un site responsive et de l'utilsation de différents languages.
+                            Différents role on été nécessaire à la création du projet. Parmis ceux-ci, un rôle modérateur permettant le bon suivis du site.
+                        </h6>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="home-img">
+                        <div class="left"></div>
+                        <img src="../contains/image/part1.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
 
     <!-- Footer -->
 

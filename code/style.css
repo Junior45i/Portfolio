@@ -156,6 +156,25 @@ i {
 }
 
 
+/* Projet description */
+
+.home-img{
+    width: 100%;
+    position: relative;
+    z-index: 10;
+}
+
+.home-img img{
+    width: 100%;
+}
+
+.home-img .left {
+    position: absolute;
+    height: 100%;
+    width: 100px;
+    background: linear-gradient(to left, transparent, #141414);
+}
+
 
 
 
@@ -167,12 +186,10 @@ i {
 
 .slider{
     position: relative;
-
+    margin-top: 10px;
     z-index: 500;
     /* margin-left: 80px; */
 }
-
-
 
 .card{
     width: 250px;
@@ -182,7 +199,6 @@ i {
     margin: 3px;
     position: relative;
 }
-
 
 .card:hover{
     transform: scaleX(1.4) scaleY(1.4);
