@@ -150,10 +150,104 @@ i {
     margin-top: 190px;
 }
 
-.slider1{
+
+.main-content{
     position: relative;
-    z-index: 500;
 }
+
+
+
+
+
+
+
+
+
+
+
+.slider{
+    position: relative;
+
+    z-index: 500;
+    /* margin-left: 80px; */
+}
+
+
+
+.card{
+    width: 250px;
+    background-color: #141414;
+    border-radius: 4px;
+    transition: 0.2s linear;
+    margin: 3px;
+    position: relative;
+}
+
+
+.card:hover{
+    transform: scaleX(1.4) scaleY(1.4);
+    z-index: 10;
+}
+
+
+.card-body{
+    display: none;
+    /* height: 0px; */
+    padding: 10px 15px;
+    position: absolute;
+    background-color: #141414;
+    top: 120px;
+    width: 100%;
+}
+
+
+.card-icon{
+    color: #fff;
+    padding: 0px !important;
+    font-size: 28px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.card:hover > .card-body{
+    display: block;
+    /* height: max-content !important; */
+}
+
+.carousel-control-prev{
+    display: none;
+}
+
+.carousel-control-next{
+    display: none;
+}
+
+.tab-change-btn{
+    border: none;
+    width: 30px !important;
+}
+
+
+.margin-right{
+    margin-right: 100px;
+}
+
+.portfolio-card-text{
+    font-size: 12px ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .portfolio-card-text{
     font-size: 12px;
@@ -195,8 +289,8 @@ i {
 }
 
 .footer{
-    margin-top: 400px;
-    margin-bottom: 100px;
+    position: relative;
+    margin-top: 50px;
 }
 
 ul{
@@ -222,3 +316,6 @@ ul{
       color: rgb(249, 14, 14);
       margin-left: 28px;
 }
+
+
+
