@@ -196,7 +196,7 @@ i {
     background-color: #141414;
     border-radius: 4px;
     transition: 0.2s linear;
-    margin: 3px;
+    margin-right: 3px;
     position: relative;
 }
 
@@ -228,6 +228,10 @@ i {
 .card:hover > .card-body{
     display: block;
     /* height: max-content !important; */
+}
+
+.carousel{
+
 }
 
 .carousel-control-prev{
