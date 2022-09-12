@@ -1,6 +1,6 @@
 <?php
 session_start();
-include('code/config/fonctions.php');
+include('config/fonctions.php');
 ?>
 
 <!DOCTYPE html>
