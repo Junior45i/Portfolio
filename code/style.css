@@ -227,7 +227,10 @@ i {
 
 
 
-
+.boutton{
+        background-color: rgb(27, 30, 31);
+    border-color: rgb(50, 54, 56);
+}
 
 .slider{
     position: relative;
