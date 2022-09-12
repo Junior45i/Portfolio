@@ -5,6 +5,53 @@ body {
     /* position: relative; */
 }
 
+
+/* Neon style */
+@font-face {
+  font-family: "tokyo";
+  src: url("../css/ZenTokyoZoo-Regular.ttf") format("truetype");
+}
+.box {
+    
+    display: block;
+    place-items:center;
+    margin-top: 30vh;
+	font-family:tokyo;
+	text-align: left;
+}
+.box p {
+    font-size: 60px;
+    text-transform: uppercase;
+	color: #ffd9e2;
+	text-shadow: 0 0 0 transparent,
+                0 0 10px #346D1A,
+                0 0 20px #2D5A19,
+                0 0 40px #346D1A,
+                0 0 100px #346D1A,
+                0 0 200px #346D1A,
+                0 0 300px #346D1A,
+                0 0 500px #346D1A,
+                0 0 1000px #346D1A;
+	animation: animate 3s infinite alternate;
+}
+@keyframes animate {
+	40% {
+		opacity: 1;
+	}
+	42% {
+		opacity: 0.8;
+	}
+	43% {
+		opacity: 1;
+	}
+	45% {
+		opacity: 0.3;
+	}
+	46% {
+		opacity: 1;
+	}
+}
+
 .portfolio-padding-left {
     padding-left: 57px;
 }
@@ -182,8 +229,6 @@ i {
 
 
 
-
-
 .slider{
     position: relative;
     margin-top: 10px;
@@ -191,48 +236,6 @@ i {
     /* margin-left: 80px; */
 }
 
-.card{
-    width: 250px;
-    background-color: #141414;
-    border-radius: 4px;
-    transition: 0.2s linear;
-    margin-right: 3px;
-    position: relative;
-}
-
-.card:hover{
-    transform: scaleX(1.4) scaleY(1.4);
-    z-index: 10;
-}
-
-
-.card-body{
-    display: none;
-    /* height: 0px; */
-    padding: 10px 15px;
-    position: absolute;
-    background-color: #141414;
-    top: 120px;
-    width: 100%;
-}
-
-
-.card-icon{
-    color: #fff;
-    padding: 0px !important;
-    font-size: 28px;
-    border-radius: 50%;
-    cursor: pointer;
-}
-
-.card:hover > .card-body{
-    display: block;
-    /* height: max-content !important; */
-}
-
-.carousel{
-
-}
 
 .carousel-control-prev{
     display: none;
@@ -257,35 +260,6 @@ i {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-.portfolio-card-text{
-    font-size: 12px;
-}
-
-.card-body{
-    display: none;
-    padding: 10px 15px;
-    position: absolute;
-    background-color: #141414;
-    top: 120px;
-    width: 100%;
-}
-
-.card:hover > .card-body{
-    display: block;
-}
-
 .card{
     width: 300px;
     background: #141414;
@@ -296,6 +270,7 @@ i {
 }
 
 .card:hover{
+    display: block;
     transform: scale(1.4);
     z-index: 10; 
 }
@@ -306,6 +281,21 @@ i {
     font-size: 28px;
     border-radius: 50%;
     cursor:pointer;
+}
+
+.card-body{
+    display: none;
+    /* height: 0px; */
+    padding: 10px 15px;
+    position: absolute;
+    background-color: #141414;
+    top: 120px;
+    width: 100%;
+}
+
+.card:hover > .card-body{
+    display: block;
+    /* height: max-content !important; */
 }
 
 .footer{

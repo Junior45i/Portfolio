@@ -1,4 +1,4 @@
-@media(max-width:767.98px) {
+@media(max-width:912px) {
     .navbar-brand img {
         width: 43px;
     }
@@ -23,6 +23,15 @@
         padding: 0%;
     }
 
+    
+    .box {
+
+    margin-top: 10vh;
+    }
+    .box p {
+        font-size: 20px;
+    }
+
     i{
         font-size: 12px;
         cursor: pointer;
@@ -32,6 +41,8 @@
     .portfolio-profile{
         margin-left: 5px;
     }
+
+
 
     .portfolio-home-video .content .left{
         margin-left: 25px;
@@ -43,7 +54,7 @@
     }
 
     button{
-        font-size: 10px;
+        font-size: 8px;
         width: max-content !important;
         opacity: 0.8;
     }
@@ -56,7 +67,8 @@
         font-size: 17px !important;
     }
 
-    .slider1{
+    /* Mettre comme modele projet */
+    .slider{
         margin-left: 0px;
     }
 
