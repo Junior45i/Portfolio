@@ -73,7 +73,7 @@ include('config/fonctions.php');
             <div class="content">
                 <section class="left">
                     <div class="box">
-                        <p>Pascale<br> Vanmalderen</p>
+                        <p>Pascal<br> Vanmalderen</p>
                     </div>
                     <div class="mt-2 d-flex">
                         <button type="button" class="btn btn-light m-2"><i class="bi bi-play-fill" style="color: #000; padding:0px;"></i><a href="#slider-box" class="text-decoration-none text-white">Mon univers</a></button>
