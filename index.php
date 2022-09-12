@@ -69,7 +69,7 @@ include('config/fonctions.php');
         <section class="portfolio-home-video">
             <div class="top"></div>
             <div class="bottom"></div>
-            <video src="../contains/video/video2.mp4" autoplay muted loop></video>
+            <video src="./contains/video/video2.mp4" autoplay muted loop></video>
             <div class="content">
                 <section class="left">
                     <div class="box">
