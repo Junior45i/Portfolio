@@ -25,14 +25,14 @@ include('config/fonctions.php');
 <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="./javascript.js"></script>
+    <script src="./code/javascript.js"></script>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg portfolio-navbar portfolio-padding-left portfolio-padding-right">
         <div class="container-fluid">
             <div class="portfolio-row">
                 <section class="left d-flex align-items-center">
                     <a class="navbar-brand" href="#">
-                        <img src="../contains/image/TestLogo.png" alt="">
+                        <img src="./contains/image/TestLogo.png" alt="">
                     </a>
                     <!-- Dropdown -->
                     <div class="portfolio-dropdown-box dropdown">
@@ -102,7 +102,7 @@ include('config/fonctions.php');
                                 <div class="carousel-item active">
                                     <section class="d-flex" style="">
                                         <div class="card">
-                                            <img src="../contains/image/slide/img1.webp" class="card-img-top" alt="...">
+                                            <img src="./contains/image/slide/img1.webp" class="card-img-top" alt="...">
                                             <div class="card-body">
                                                 <section class="d-flex justify-content-between">
                                                     <div>
@@ -123,7 +123,7 @@ include('config/fonctions.php');
                                             </div>
                                         </div>
                                         <div class="card">
-                                            <img src="../contains/image/image2.png" class="card-img-top" alt="...">
+                                            <img src="./contains/image/image2.png" class="card-img-top" alt="...">
                                             <div class="card-body">
                                                 <section class="d-flex justify-content-between">
                                                     <div>
@@ -144,7 +144,7 @@ include('config/fonctions.php');
                                             </div>
                                         </div>
                                         <div class="card">
-                                            <img src="../contains/image/image3.png" class="card-img-top" alt="...">
+                                            <img src="./contains/image/image3.png" class="card-img-top" alt="...">
                                             <div class="card-body">
                                                 <section class="d-flex justify-content-between">
                                                     <div>
@@ -169,7 +169,7 @@ include('config/fonctions.php');
                                     <section class="d-flex">
 
                                         <div class="card">
-                                            <img src="../contains/image/slide/img1.webp" class="card-img-top" alt="...">
+                                            <img src="./contains/image/slide/img1.webp" class="card-img-top" alt="...">
                                             <div class="card-body">
                                                 <section class="d-flex justify-content-between">
                                                     <div>
@@ -190,7 +190,7 @@ include('config/fonctions.php');
                                             </div>
                                         </div>
                                         <div class="card">
-                                            <img src="../contains/image/slide/img1.webp" class="card-img-top" alt="...">
+                                            <img src="./contains/image/slide/img1.webp" class="card-img-top" alt="...">
                                             <div class="card-body">
                                                 <section class="d-flex justify-content-between">
                                                     <div>
@@ -211,7 +211,7 @@ include('config/fonctions.php');
                                             </div>
                                         </div>
                                         <div class="card">
-                                            <img src="../contains/image/slide/img1.webp" class="card-img-top" alt="...">
+                                            <img src="./contains/image/slide/img1.webp" class="card-img-top" alt="...">
                                             <div class="card-body">
                                                 <section class="d-flex justify-content-between">
                                                     <div>
@@ -236,7 +236,7 @@ include('config/fonctions.php');
                                 <div class="carousel-item">
                                     <section class="d-flex">
                                         <div class="card">
-                                            <img src="../contains/image/slide/img1.webp" class="card-img-top" alt="...">
+                                            <img src="./contains/image/slide/img1.webp" class="card-img-top" alt="...">
                                             <div class="card-body">
                                                 <section class="d-flex justify-content-between">
                                                     <div>
@@ -257,7 +257,7 @@ include('config/fonctions.php');
                                             </div>
                                         </div>
                                         <div class="card">
-                                            <img src="../contains/image/slide/img1.webp" class="card-img-top" alt="...">
+                                            <img src="./contains/image/slide/img1.webp" class="card-img-top" alt="...">
                                             <div class="card-body">
                                                 <section class="d-flex justify-content-between">
                                                     <div>
@@ -278,7 +278,7 @@ include('config/fonctions.php');
                                             </div>
                                         </div>
                                         <div class="card">
-                                            <img src="../contains/image/slide/img1.webp" class="card-img-top" alt="...">
+                                            <img src="./contains/image/slide/img1.webp" class="card-img-top" alt="...">
                                             <div class="card-body">
                                                 <section class="d-flex justify-content-between">
                                                     <div>
@@ -319,7 +319,7 @@ include('config/fonctions.php');
     <script>
         $(document).ready(function() {
             $.ajax({
-                url: 'projet.php',
+                url: './code/projet.php',
                 type: 'POST',
                 data: {
                     myFunction: 'afficherProjet',
@@ -344,7 +344,7 @@ include('config/fonctions.php');
         })
         $(document).on('click', 'boutton', function() {
             $.ajax({
-                url: 'projet.php',
+                url: './code/projet.php',
                 type: 'POST',
                 data: {
                     myFunction: 'afficherProjet',
