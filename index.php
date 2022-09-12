@@ -357,10 +357,10 @@ include('code/config/fonctions.php');
                 dataType: 'json',
                 success: function(data) {
                     for (var d of data) {
-                        $("#home-text").html("<h1 style=color: white'>" + d.nomProjet + "</h1>\
+                        $("#home-text").html("<h1 class= text-white'>" + d.nomProjet + "</h1>\
                         <p class='projet-card-text' style='color: rgb(0, 186, 0);'> Résultat scolaire " + d.rstScolaire + "</p>\
                         <p class='projet-card-lang' style='color: rgb(93, 89, 87);'> " + d.lgProg + "</p>\
-                        <h6 class='description style=color: white'>" + d.descriptionProjet + "</h6>");
+                        <h6 class='description text-white'>" + d.descriptionProjet + "</h6>");
                         $("#imageProj").html("<img src='../contains/image/image" + d.idProjet + ".png' alt=''>");
                     }
                 },
