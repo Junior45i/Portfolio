@@ -222,16 +222,6 @@ i {
     background: linear-gradient(to left, transparent, #141414);
 }
 
-
-
-
-
-
-.boutton{
-        background-color: rgb(27, 30, 31);
-    border-color: rgb(50, 54, 56);
-}
-
 .slider{
     position: relative;
     margin-top: 10px;
@@ -253,7 +243,6 @@ i {
     width: 30px !important;
 }
 
-
 .margin-right{
     margin-right: 100px;
 }
@@ -261,7 +250,6 @@ i {
 .portfolio-card-text{
     font-size: 12px ;
 }
-
 
 .card{
     width: 300px;

@@ -76,7 +76,7 @@ include('config/fonctions.php');
                         <p>Pascal<br> Vanmalderen</p>
                     </div>
                     <div class="mt-2 d-flex">
-                        <button type="button" class="btn btn-light m-2"><i class="bi bi-play-fill" style="color: #000; padding:0px;"></i><a href="#slider-box" class="boutton text-decoration-none text-white">Mon univers</a></button>
+                        <button type="button" class="btn btn-dark m-2"><i class="bi bi-play-fill" style="color: #000; padding:0px;"></i><a href="#slider-box" class="boutton text-decoration-none text-white">Mon univers</a></button>
                         <button type="button" class="btn btn-secondary m-2"><i class="bi bi-info-circle" style="color: #000; padding:5px;"></i>Plus d'informations</button>
                     </div>
                 </section>
