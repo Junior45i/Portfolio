@@ -69,7 +69,9 @@ include('config/fonctions.php');
         <section class="portfolio-home-video">
             <div class="top"></div>
             <div class="bottom"></div>
-            <video src="./contains/video/video2.mp4" autoplay muted loop></video>
+            <video autoplay playsinline muted loop>
+                <source type="video/mp4" src="./contains/video/video2.mp4" />
+            </video>
             <div class="content">
                 <section class="left">
                     <div class="box">
@@ -89,229 +91,229 @@ include('config/fonctions.php');
         <section class="home py-5">
             <div class="container-lg">
                 <div class="row align-items-top align-content-top">
-                        <section class="d-flex justify-content-between margin-right">
-                            <h2 class="text-white"> <b>Mes projets</b> </h2>
-                            <div class="">
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active tab-change-btn" aria-current="true" aria-label="Slide 1"></button>
-                                <button class="tab-change-btn" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                <button class="tab-change-btn" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                            </div>
-                        </section>
-                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                            <div class="carousel-inner" style="position: relative; overflow: visible;">
-                                <div class="carousel-item active">
-                                    <section class="d-flex" style="">
-                                        <div class="card">
-                                            <img src="./contains/image/slide/img1.webp" class="card-img-top" alt="...">
-                                            <div class="card-body">
-                                                <section class="d-flex justify-content-between">
-                                                    <div>
-                                                        <boutton id="1"><i class="bi bi-play-circle-fill card-icon" id="1"></i></boutton>
-                                                        <i class="bi bi-plus-circle card-icon"></i>
-                                                    </div>
-                                                    <div>
-                                                        <i class="bi bi-arrow-down-circle card-icon"></i>
-                                                    </div>
-                                                </section>
-                                                <section class="d-flex align-items-center justify-content-between">
-                                                    <p class="portfolio-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p>
-                                                    <span class="m-2 portfolio-card-text text-white">Limited Series</span> <span class="border portfolio-card-text p-1 text-white">HD</span>
-
-                                                </section>
-                                                <span class="portfolio-card-text text-white">Provocative • Psychological •
-                                                    Thriller</span>
-                                            </div>
-                                        </div>
-                                        <div class="card">
-                                            <img src="./contains/image/image2.png" class="card-img-top" alt="...">
-                                            <div class="card-body">
-                                                <section class="d-flex justify-content-between">
-                                                    <div>
-                                                        <boutton id="2"><i class="bi bi-play-circle-fill card-icon" id="2"></i></boutton>
-                                                        <i class="bi bi-plus-circle card-icon"></i>
-                                                    </div>
-                                                    <div>
-                                                        <i class="bi bi-arrow-down-circle card-icon"></i>
-                                                    </div>
-                                                </section>
-                                                <section class="d-flex align-items-center justify-content-between">
-                                                    <p class="portfolio-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p>
-                                                    <span class="m-2 portfolio-card-text text-white">Limited Series</span> <span class="border portfolio-card-text p-1 text-white">HD</span>
-
-                                                </section>
-                                                <span class="portfolio-card-text text-white">Provocative • Psychological •
-                                                    Thriller</span>
-                                            </div>
-                                        </div>
-                                        <div class="card">
-                                            <img src="./contains/image/image3.png" class="card-img-top" alt="...">
-                                            <div class="card-body">
-                                                <section class="d-flex justify-content-between">
-                                                    <div>
-                                                        <boutton id="3"><i class="bi bi-play-circle-fill card-icon" id="3"></i></boutton> <i class="bi bi-plus-circle card-icon"></i>
-                                                    </div>
-                                                    <div>
-                                                        <i class="bi bi-arrow-down-circle card-icon"></i>
-                                                    </div>
-                                                </section>
-                                                <section class="d-flex align-items-center justify-content-between">
-                                                    <p class="portfolio-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p>
-                                                    <span class="m-2 portfolio-card-text text-white">Limited Series</span> <span class="border portfolio-card-text p-1 text-white">HD</span>
-
-                                                </section>
-                                                <span class="portfolio-card-text text-white">Provocative • Psychological •
-                                                    Thriller</span>
-                                            </div>
-                                        </div>
-                                    </section>
-                                </div>
-                                <div class="carousel-item">
-                                    <section class="d-flex">
-
-                                        <div class="card">
-                                            <img src="./contains/image/slide/img1.webp" class="card-img-top" alt="...">
-                                            <div class="card-body">
-                                                <section class="d-flex justify-content-between">
-                                                    <div>
-                                                        <boutton id="4"><i class="bi bi-play-circle-fill card-icon" id="4"></i></boutton>
-                                                        <i class="bi bi-plus-circle card-icon"></i>
-                                                    </div>
-                                                    <div>
-                                                        <i class="bi bi-arrow-down-circle card-icon"></i>
-                                                    </div>
-                                                </section>
-                                                <section class="d-flex align-items-center justify-content-between">
-                                                    <p class="portfolio-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p>
-                                                    <span class="m-2 portfolio-card-text text-white">Limited Series</span> <span class="border portfolio-card-text p-1 text-white">HD</span>
-
-                                                </section>
-                                                <span class="portfolio-card-text text-white">Provocative • Psychological •
-                                                    Thriller</span>
-                                            </div>
-                                        </div>
-                                        <div class="card">
-                                            <img src="./contains/image/slide/img1.webp" class="card-img-top" alt="...">
-                                            <div class="card-body">
-                                                <section class="d-flex justify-content-between">
-                                                    <div>
-                                                        <i class="bi bi-play-circle-fill card-icon" id="5"></i>
-                                                        <i class="bi bi-plus-circle card-icon"></i>
-                                                    </div>
-                                                    <div>
-                                                        <i class="bi bi-arrow-down-circle card-icon"></i>
-                                                    </div>
-                                                </section>
-                                                <section class="d-flex align-items-center justify-content-between">
-                                                    <p class="portfolio-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p>
-                                                    <span class="m-2 portfolio-card-text text-white">Limited Series</span> <span class="border portfolio-card-text p-1 text-white">HD</span>
-
-                                                </section>
-                                                <span class="portfolio-card-text text-white">Provocative • Psychological •
-                                                    Thriller</span>
-                                            </div>
-                                        </div>
-                                        <div class="card">
-                                            <img src="./contains/image/slide/img1.webp" class="card-img-top" alt="...">
-                                            <div class="card-body">
-                                                <section class="d-flex justify-content-between">
-                                                    <div>
-                                                        <i class="bi bi-play-circle-fill card-icon" id="6"></i>
-                                                        <i class="bi bi-plus-circle card-icon"></i>
-                                                    </div>
-                                                    <div>
-                                                        <i class="bi bi-arrow-down-circle card-icon"></i>
-                                                    </div>
-                                                </section>
-                                                <section class="d-flex align-items-center justify-content-between">
-                                                    <p class="portfolio-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p>
-                                                    <span class="m-2 portfolio-card-text text-white">Limited Series</span> <span class="border portfolio-card-text p-1 text-white">HD</span>
-
-                                                </section>
-                                                <span class="portfolio-card-text text-white">Provocative • Psychological •
-                                                    Thriller</span>
-                                            </div>
-                                        </div>
-                                    </section>
-                                </div>
-                                <div class="carousel-item">
-                                    <section class="d-flex">
-                                        <div class="card">
-                                            <img src="./contains/image/slide/img1.webp" class="card-img-top" alt="...">
-                                            <div class="card-body">
-                                                <section class="d-flex justify-content-between">
-                                                    <div>
-                                                        <i class="bi bi-play-circle-fill card-icon"></i>
-                                                        <i class="bi bi-plus-circle card-icon"></i>
-                                                    </div>
-                                                    <div>
-                                                        <i class="bi bi-arrow-down-circle card-icon"></i>
-                                                    </div>
-                                                </section>
-                                                <section class="d-flex align-items-center justify-content-between">
-                                                    <p class="portfolio-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p>
-                                                    <span class="m-2 portfolio-card-text text-white">Limited Series</span> <span class="border portfolio-card-text p-1 text-white">HD</span>
-
-                                                </section>
-                                                <span class="portfolio-card-text text-white">Provocative • Psychological •
-                                                    Thriller</span>
-                                            </div>
-                                        </div>
-                                        <div class="card">
-                                            <img src="./contains/image/slide/img1.webp" class="card-img-top" alt="...">
-                                            <div class="card-body">
-                                                <section class="d-flex justify-content-between">
-                                                    <div>
-                                                        <i class="bi bi-play-circle-fill card-icon"></i>
-                                                        <i class="bi bi-plus-circle card-icon"></i>
-                                                    </div>
-                                                    <div>
-                                                        <i class="bi bi-arrow-down-circle card-icon"></i>
-                                                    </div>
-                                                </section>
-                                                <section class="d-flex align-items-center justify-content-between">
-                                                    <p class="portfolio-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p>
-                                                    <span class="m-2 portfolio-card-text text-white">Limited Series</span> <span class="border portfolio-card-text p-1 text-white">HD</span>
-
-                                                </section>
-                                                <span class="portfolio-card-text text-white">Provocative • Psychological •
-                                                    Thriller</span>
-                                            </div>
-                                        </div>
-                                        <div class="card">
-                                            <img src="./contains/image/slide/img1.webp" class="card-img-top" alt="...">
-                                            <div class="card-body">
-                                                <section class="d-flex justify-content-between">
-                                                    <div>
-                                                        <i class="bi bi-play-circle-fill card-icon"></i>
-                                                        <i class="bi bi-plus-circle card-icon"></i>
-                                                    </div>
-                                                    <div>
-                                                        <i class="bi bi-arrow-down-circle card-icon"></i>
-                                                    </div>
-                                                </section>
-                                                <section class="d-flex align-items-center justify-content-between">
-                                                    <p class="portfolio-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p>
-                                                    <span class="m-2 portfolio-card-text text-white">Limited Series</span> <span class="border portfolio-card-text p-1 text-white">HD</span>
-
-                                                </section>
-                                                <span class="portfolio-card-text text-white">Provocative • Psychological •
-                                                    Thriller</span>
-                                            </div>
-                                        </div>
-                                    </section>
-                                </div>
-                            </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
-                            </button>
+                    <section class="d-flex justify-content-between margin-right">
+                        <h2 class="text-white"> <b>Mes projets</b> </h2>
+                        <div class="">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active tab-change-btn" aria-current="true" aria-label="Slide 1"></button>
+                            <button class="tab-change-btn" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button class="tab-change-btn" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
                         </div>
+                    </section>
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner" style="position: relative; overflow: visible;">
+                            <div class="carousel-item active">
+                                <section class="d-flex" style="">
+                                    <div class="card">
+                                        <img src="./contains/image/slide/img1.webp" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <section class="d-flex justify-content-between">
+                                                <div>
+                                                    <boutton id="1"><i class="bi bi-play-circle-fill card-icon" id="1"></i></boutton>
+                                                    <i class="bi bi-plus-circle card-icon"></i>
+                                                </div>
+                                                <div>
+                                                    <i class="bi bi-arrow-down-circle card-icon"></i>
+                                                </div>
+                                            </section>
+                                            <section class="d-flex align-items-center justify-content-between">
+                                                <p class="portfolio-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p>
+                                                <span class="m-2 portfolio-card-text text-white">Limited Series</span> <span class="border portfolio-card-text p-1 text-white">HD</span>
+
+                                            </section>
+                                            <span class="portfolio-card-text text-white">Provocative • Psychological •
+                                                Thriller</span>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="./contains/image/image2.png" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <section class="d-flex justify-content-between">
+                                                <div>
+                                                    <boutton id="2"><i class="bi bi-play-circle-fill card-icon" id="2"></i></boutton>
+                                                    <i class="bi bi-plus-circle card-icon"></i>
+                                                </div>
+                                                <div>
+                                                    <i class="bi bi-arrow-down-circle card-icon"></i>
+                                                </div>
+                                            </section>
+                                            <section class="d-flex align-items-center justify-content-between">
+                                                <p class="portfolio-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p>
+                                                <span class="m-2 portfolio-card-text text-white">Limited Series</span> <span class="border portfolio-card-text p-1 text-white">HD</span>
+
+                                            </section>
+                                            <span class="portfolio-card-text text-white">Provocative • Psychological •
+                                                Thriller</span>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="./contains/image/image3.png" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <section class="d-flex justify-content-between">
+                                                <div>
+                                                    <boutton id="3"><i class="bi bi-play-circle-fill card-icon" id="3"></i></boutton> <i class="bi bi-plus-circle card-icon"></i>
+                                                </div>
+                                                <div>
+                                                    <i class="bi bi-arrow-down-circle card-icon"></i>
+                                                </div>
+                                            </section>
+                                            <section class="d-flex align-items-center justify-content-between">
+                                                <p class="portfolio-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p>
+                                                <span class="m-2 portfolio-card-text text-white">Limited Series</span> <span class="border portfolio-card-text p-1 text-white">HD</span>
+
+                                            </section>
+                                            <span class="portfolio-card-text text-white">Provocative • Psychological •
+                                                Thriller</span>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                            <div class="carousel-item">
+                                <section class="d-flex">
+
+                                    <div class="card">
+                                        <img src="./contains/image/slide/img1.webp" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <section class="d-flex justify-content-between">
+                                                <div>
+                                                    <boutton id="4"><i class="bi bi-play-circle-fill card-icon" id="4"></i></boutton>
+                                                    <i class="bi bi-plus-circle card-icon"></i>
+                                                </div>
+                                                <div>
+                                                    <i class="bi bi-arrow-down-circle card-icon"></i>
+                                                </div>
+                                            </section>
+                                            <section class="d-flex align-items-center justify-content-between">
+                                                <p class="portfolio-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p>
+                                                <span class="m-2 portfolio-card-text text-white">Limited Series</span> <span class="border portfolio-card-text p-1 text-white">HD</span>
+
+                                            </section>
+                                            <span class="portfolio-card-text text-white">Provocative • Psychological •
+                                                Thriller</span>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="./contains/image/slide/img1.webp" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <section class="d-flex justify-content-between">
+                                                <div>
+                                                    <i class="bi bi-play-circle-fill card-icon" id="5"></i>
+                                                    <i class="bi bi-plus-circle card-icon"></i>
+                                                </div>
+                                                <div>
+                                                    <i class="bi bi-arrow-down-circle card-icon"></i>
+                                                </div>
+                                            </section>
+                                            <section class="d-flex align-items-center justify-content-between">
+                                                <p class="portfolio-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p>
+                                                <span class="m-2 portfolio-card-text text-white">Limited Series</span> <span class="border portfolio-card-text p-1 text-white">HD</span>
+
+                                            </section>
+                                            <span class="portfolio-card-text text-white">Provocative • Psychological •
+                                                Thriller</span>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="./contains/image/slide/img1.webp" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <section class="d-flex justify-content-between">
+                                                <div>
+                                                    <i class="bi bi-play-circle-fill card-icon" id="6"></i>
+                                                    <i class="bi bi-plus-circle card-icon"></i>
+                                                </div>
+                                                <div>
+                                                    <i class="bi bi-arrow-down-circle card-icon"></i>
+                                                </div>
+                                            </section>
+                                            <section class="d-flex align-items-center justify-content-between">
+                                                <p class="portfolio-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p>
+                                                <span class="m-2 portfolio-card-text text-white">Limited Series</span> <span class="border portfolio-card-text p-1 text-white">HD</span>
+
+                                            </section>
+                                            <span class="portfolio-card-text text-white">Provocative • Psychological •
+                                                Thriller</span>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                            <div class="carousel-item">
+                                <section class="d-flex">
+                                    <div class="card">
+                                        <img src="./contains/image/slide/img1.webp" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <section class="d-flex justify-content-between">
+                                                <div>
+                                                    <i class="bi bi-play-circle-fill card-icon"></i>
+                                                    <i class="bi bi-plus-circle card-icon"></i>
+                                                </div>
+                                                <div>
+                                                    <i class="bi bi-arrow-down-circle card-icon"></i>
+                                                </div>
+                                            </section>
+                                            <section class="d-flex align-items-center justify-content-between">
+                                                <p class="portfolio-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p>
+                                                <span class="m-2 portfolio-card-text text-white">Limited Series</span> <span class="border portfolio-card-text p-1 text-white">HD</span>
+
+                                            </section>
+                                            <span class="portfolio-card-text text-white">Provocative • Psychological •
+                                                Thriller</span>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="./contains/image/slide/img1.webp" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <section class="d-flex justify-content-between">
+                                                <div>
+                                                    <i class="bi bi-play-circle-fill card-icon"></i>
+                                                    <i class="bi bi-plus-circle card-icon"></i>
+                                                </div>
+                                                <div>
+                                                    <i class="bi bi-arrow-down-circle card-icon"></i>
+                                                </div>
+                                            </section>
+                                            <section class="d-flex align-items-center justify-content-between">
+                                                <p class="portfolio-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p>
+                                                <span class="m-2 portfolio-card-text text-white">Limited Series</span> <span class="border portfolio-card-text p-1 text-white">HD</span>
+
+                                            </section>
+                                            <span class="portfolio-card-text text-white">Provocative • Psychological •
+                                                Thriller</span>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="./contains/image/slide/img1.webp" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <section class="d-flex justify-content-between">
+                                                <div>
+                                                    <i class="bi bi-play-circle-fill card-icon"></i>
+                                                    <i class="bi bi-plus-circle card-icon"></i>
+                                                </div>
+                                                <div>
+                                                    <i class="bi bi-arrow-down-circle card-icon"></i>
+                                                </div>
+                                            </section>
+                                            <section class="d-flex align-items-center justify-content-between">
+                                                <p class="portfolio-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p>
+                                                <span class="m-2 portfolio-card-text text-white">Limited Series</span> <span class="border portfolio-card-text p-1 text-white">HD</span>
+
+                                            </section>
+                                            <span class="portfolio-card-text text-white">Provocative • Psychological •
+                                                Thriller</span>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
                     </div>
                 </div>
+            </div>
         </section>
     </div>
 
