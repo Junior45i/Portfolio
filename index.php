@@ -49,8 +49,8 @@ include('code/config/fonctions.php');
                     <div class="portfolio-nav">
                         <section>
                             <!-- <button>Histoire</button> -->
-                            <button>Projet</button>
-                            <button>Contact</button>
+                            <button> <a href="#slider-box">Projet</a></button>
+                            <button> <a href="#footer">Contact</a></button>
                         </section>
                     </div>
                 </section>
@@ -165,7 +165,7 @@ include('code/config/fonctions.php');
                                                 Thriller</span>
                                         </div>
                                     </div>
-                                </section> 
+                                </section>
                             </div>
                             <div class="carousel-item">
                                 <section class="d-flex">
