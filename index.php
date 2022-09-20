@@ -165,7 +165,7 @@ include('code/config/fonctions.php');
                                                 Thriller</span>
                                         </div>
                                     </div>
-                                </section>
+                                </section> 
                             </div>
                             <div class="carousel-item">
                                 <section class="d-flex">
