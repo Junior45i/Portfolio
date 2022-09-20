@@ -40,15 +40,15 @@ include('code/config/fonctions.php');
                             Browse
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                            <li><a class="dropdown-item" href="#">Histoire</a></li>
-                            <li><a class="dropdown-item" href="#">Projet</a></li>
-                            <li><a class="dropdown-item" href="#">Contact</a></li>
+                            <!-- <li><a class="dropdown-item" href="#">Histoire</a></li> -->
+                            <li><a class="dropdown-item" href="#slider-box">Projet</a></li>
+                            <li><a class="dropdown-item" href="#footer">Contact</a></li>
                         </ul>
                     </div>
                     <!-- Tableau -->
                     <div class="portfolio-nav">
                         <section>
-                            <button>Histoire</button>
+                            <!-- <button>Histoire</button> -->
                             <button>Projet</button>
                             <button>Contact</button>
                         </section>
@@ -396,7 +396,7 @@ include('code/config/fonctions.php');
     <!-- Footer -->
 
     <!-- footer  -->
-    <div class="container footer">
+    <div class="container footer" id="footer">
         <div class="row">
             <div class="col-md-10 mx-auto">
                 <div class="row">
