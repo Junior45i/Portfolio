@@ -120,8 +120,8 @@ include('code/config/fonctions.php');
                                                 <span class="m-2 portfolio-card-text text-white">Limited Series</span> <span class="border portfolio-card-text p-1 text-white">HD</span>
 
                                             </section>
-                                            <span class="portfolio-card-text text-white">Provocative • Psychological •
-                                                Thriller</span>
+                                            <!-- <span class="portfolio-card-text text-white">Provocative • Psychological •
+                                                Thriller</span> -->
                                         </div>
                                     </div>
                                     <div class="card">
@@ -141,8 +141,8 @@ include('code/config/fonctions.php');
                                                 <span class="m-2 portfolio-card-text text-white">Limited Series</span> <span class="border portfolio-card-text p-1 text-white">HD</span>
 
                                             </section>
-                                            <span class="portfolio-card-text text-white">Provocative • Psychological •
-                                                Thriller</span>
+                                            <!-- <span class="portfolio-card-text text-white">Provocative • Psychological •
+                                                Thriller</span> -->
                                         </div>
                                     </div>
                                     <div class="card">
@@ -161,8 +161,8 @@ include('code/config/fonctions.php');
                                                 <span class="m-2 portfolio-card-text text-white">Limited Series</span> <span class="border portfolio-card-text p-1 text-white">HD</span>
 
                                             </section>
-                                            <span class="portfolio-card-text text-white">Provocative • Psychological •
-                                                Thriller</span>
+                                            <!-- <span class="portfolio-card-text text-white">Provocative • Psychological •
+                                                Thriller</span> -->
                                         </div>
                                     </div>
                                 </section>
@@ -187,8 +187,8 @@ include('code/config/fonctions.php');
                                                 <span class="m-2 portfolio-card-text text-white">Limited Series</span> <span class="border portfolio-card-text p-1 text-white">HD</span>
 
                                             </section>
-                                            <span class="portfolio-card-text text-white">Provocative • Psychological •
-                                                Thriller</span>
+                                            <!-- <span class="portfolio-card-text text-white">Provocative • Psychological •
+                                                Thriller</span> -->
                                         </div>
                                     </div>
                                     <div class="card">
@@ -208,8 +208,8 @@ include('code/config/fonctions.php');
                                                 <span class="m-2 portfolio-card-text text-white">Limited Series</span> <span class="border portfolio-card-text p-1 text-white">HD</span>
 
                                             </section>
-                                            <span class="portfolio-card-text text-white">Provocative • Psychological •
-                                                Thriller</span>
+                                            <!-- <span class="portfolio-card-text text-white">Provocative • Psychological •
+                                                Thriller</span> -->
                                         </div>
                                     </div>
                                     <div class="card">
@@ -229,8 +229,8 @@ include('code/config/fonctions.php');
                                                 <span class="m-2 portfolio-card-text text-white">Limited Series</span> <span class="border portfolio-card-text p-1 text-white">HD</span>
 
                                             </section>
-                                            <span class="portfolio-card-text text-white">Provocative • Psychological •
-                                                Thriller</span>
+                                            <!-- <span class="portfolio-card-text text-white">Provocative • Psychological •
+                                                Thriller</span> -->
                                         </div>
                                     </div>
                                 </section>
@@ -254,8 +254,8 @@ include('code/config/fonctions.php');
                                                 <span class="m-2 portfolio-card-text text-white">Limited Series</span> <span class="border portfolio-card-text p-1 text-white">HD</span>
 
                                             </section>
-                                            <span class="portfolio-card-text text-white">Provocative • Psychological •
-                                                Thriller</span>
+                                            <!-- <span class="portfolio-card-text text-white">Provocative • Psychological •
+                                                Thriller</span> -->
                                         </div>
                                     </div>
                                     <div class="card">
@@ -275,8 +275,8 @@ include('code/config/fonctions.php');
                                                 <span class="m-2 portfolio-card-text text-white">Limited Series</span> <span class="border portfolio-card-text p-1 text-white">HD</span>
 
                                             </section>
-                                            <span class="portfolio-card-text text-white">Provocative • Psychological •
-                                                Thriller</span>
+                                            <!-- <span class="portfolio-card-text text-white">Provocative • Psychological •
+                                                Thriller</span> -->
                                         </div>
                                     </div>
                                     <div class="card">
@@ -296,8 +296,8 @@ include('code/config/fonctions.php');
                                                 <span class="m-2 portfolio-card-text text-white">Limited Series</span> <span class="border portfolio-card-text p-1 text-white">HD</span>
 
                                             </section>
-                                            <span class="portfolio-card-text text-white">Provocative • Psychological •
-                                                Thriller</span>
+                                            <!-- <span class="portfolio-card-text text-white">Provocative • Psychological •
+                                                Thriller</span> -->
                                         </div>
                                     </div>
                                 </section>
