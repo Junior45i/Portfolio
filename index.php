@@ -49,8 +49,8 @@ include('code/config/fonctions.php');
                     <div class="portfolio-nav">
                         <section>
                             <!-- <button>Histoire</button> -->
-                            <button> <a href="#slider-box">Projet</a></button>
-                            <button> <a href="#footer">Contact</a></button>
+                            <button> <a href="#slider-box" class="boutton text-decoration-none text-white">Projet</a></button>
+                            <button> <a href="#footer" class="boutton text-decoration-none text-white">Contact</a></button>
                         </section>
                     </div>
                 </section>
