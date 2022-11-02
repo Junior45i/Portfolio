@@ -405,7 +405,6 @@ include('code/config/fonctions.php');
                             <li>Ecole Info</li>
                             <li>Adresse:</li>
                             <li>Téléphone</li>
-                            <li>Contact Us</li>
                         </ul>
                     </div>
                     <div class="col-md-3">
