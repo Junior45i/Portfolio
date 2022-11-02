@@ -1,2 +1,4 @@
-code/config/
+code/config/*
+/code/config/database.php
+code/congig/database.php
 test.txt
