@@ -436,7 +436,7 @@ include('code/config/fonctions.php');
             <div class="col-10 mx-auto">
                 <div class="row">
                     <div class="col">
-                        <p class="copy-right">@Pascal Vanmalderen copyright</p>
+                        <p class="copy-right">©Pascal Vanmalderen copyright</p>
                     </div>
                 </div>
             </div>
